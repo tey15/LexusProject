@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+     <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <a href="#" class="logo">LEXUS</a>
+        
+        <nav>
+            <ul class="nav-menu" id="menu">
+                <li><a href="#vehicles">Vehicles</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#Up_coming_Vehicle">Up Coming</a></li>
+                <li><a href="#gallery">Customer Feedback</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+             <!-- <div id="close-navbar" class="fas fa-times"></div>  -->
+        </nav>
+        
+        <div class="nav-actions">
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-search"></i>
+            <i class="fas fa-user"></i>
+        </div>
+        
+        <button class="mobile-menu" id="mobileMenu">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1>Experience Amazing</h1>
+            <p>Discover the perfect blend of luxury, performance, and innovation</p>
+            <a href="#vehicles" class="cta-button primary">Explore Vehicles</a>
+            <a href="#services" class="cta-button">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2 class="section-title scroll-reveal">Our Services</h2>
+        <div class="services-grid">
+            <div class="service-item scroll-reveal">
+                <i class="fas fa-car"></i>
+                <h3>Vehicle Sales</h3>
+                <p>Find your perfect Lexus</p>
+            </div>
+            <div class="service-item scroll-reveal">
+                <i class="fas fa-wrench"></i>
+                <h3>Service & Maintenance</h3>
+                <p>Expert care for your vehicle</p>
+            </div>
+            <div class="service-item scroll-reveal">
+                <i class="fas fa-money-bill-wave"></i>
+                <h3>Financing</h3>
+                <p>Flexible payment options</p>
+            </div>
+            <div class="service-item scroll-reveal">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Warranty</h3>
+                <p>Comprehensive protection</p>
+            </div>
+            <div class="service-item scroll-reveal">
+                <i class="fas fa-handshake"></i>
+                <h3>Trade-In</h3>
+                <p>Get value for your current car</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vehicles Section -->
+    <section class="vehicles" id="vehicles">
+        <h2 class="section-title scroll-reveal">Our Vehicles</h2>
+        <div class="vehicles-grid">
+            <div class="vehicle-card scroll-reveal">
+                <div class="vehicle-image" style="background-image: url('https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=400&h=250&fit=crop');"></div>
+                <div class="vehicle-info">
+                    <h3>2025 NX Hybrid</h3>
+                    <p>Experience luxury and efficiency in perfect harmony</p>
+                    <button class="vehicle-button">Explore</button>
+                </div>
+            </div>
+            <div class="vehicle-card scroll-reveal">
+                <div class="vehicle-image" style="background-image: url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=400&h=250&fit=crop');"></div>
+                <div class="vehicle-info">
+                    <h3>2025 RZ Electric</h3>
+                    <p>All-electric. All Lexus.</p>
+                    <button class="vehicle-button">Explore</button>
+                </div>
+            </div>
+            <div class="vehicle-card scroll-reveal">
+                <div class="vehicle-image" style="background-image: url('https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=400&h=250&fit=crop');"></div>
+                <div class="vehicle-info">
+                    <h3>2025 LX 700h</h3>
+                    <p>Peak luxury. All hybrid. Arriving 2025.</p>
+                    <button class="vehicle-button">Explore</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- VEHICLES AND CURRENT OFFERS -->
+    <section class="VEHICLES-container">
+        <div class="Header-title" id="vehicle_offer">
+            <h3>VEHICLES AND CURRENT OFFERS</h3>
+        </div>
+        <div class="VEHICLES">
+            <div class="box-vihecle" data-aos="fade-up-right" 
+            data-aos-duration="2000">
+                <div class="picture">
+                    <img src="images/pic1.avif" alt="">
+                </div>
+                <div class="description">
+                   <h3>CURRENT OFFERS</h3>
+                   <h3>FIND LEASE, FINANCE AND CASH OFFERS IN YOUR AREA</h3>
+                   <button>Lern more</button>
+                </div>
+            </div>
+            <div class="box-vihecle" data-aos="fade-up"
+            data-aos-duration="2000">
+                <div class="picture">
+                    <img src="images/pic2.avif" alt="" >
+                </div>
+                <div class="description">
+                   <h3>THE 2025 RZ</h3>
+                   <h3>ALL-ELECTRIC. ALL LEXUS.</h3>
+                   <button>Lern more</button>
+                </div>
+            </div>
+            <div class="box-vihecle" data-aos="fade-up-left"
+            data-aos-duration="2000">
+                <div class="picture">
+                    <img src="images/pic3.avif" alt="">
+                </div>
+                <div class="description">
+                   <h3>THE 2025 NX</h3>
+                   <h3>WHERE TECHNOLOGY IS SECOND NATURE</h3>
+                   <button>Lern more</button>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+        <hr>
+    </section>
+    <br>
+
+
+    <!-- EXPLORE YOUR LEXUS -->
+    <section class="explore-your-lexus">
+        <div class="left-box">
+            <h2 class="title">THE 2025</h2>
+            <h1 class="model">NX HYBRID</h1>
+            <p class="description">Experience luxury and efficiency in perfect harmony</p>
+            <div class="cta-buttons">
+                <button class="explore-btn">EXPLORE</button>
+                <button class="build-btn">BUILD</button>
+            </div>
+        </div>
+        <div class="right-box">
+            <img src="images/nxh.avif" alt="Lexus NX Hybrid 2025">
+        </div>
+    </section>
+
+
+    <!-- THE FIRST-EVER LX 700h -->
+    <section class="container-700h">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="box-700h">
+                    <h4>THE FIRST-EVER LX 700h</h4>
+                    <h4>PEAK LUXURY. ALL HYBRID. ARRIVING 2025.</h4>
+                </div>
+            </div>
+            <div class="col-xl-12">
+                <div class="box-700h-image">
+                    <img src="images/700h.avif" alt="">
+                </div>
+            </div>
+            <div class="col-xl-12 pb-3 ">
+                <div class="box-700h-button">
+                    <button class="btn-700h">LEARN MORE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br>
+
+
+    <!-- THE FIRST-EVER LX 700h -->
+    <section class="container-700h">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="box-700h">
+                    <h4>THE FIRST-EVER LX 700h</h4>
+                    <h4>PEAK LUXURY. ALL HYBRID. ARRIVING 2025.</h4>
+                </div>
+            </div>
+            <div class="col-xl-12">
+                <div class="box-700h-image" style="background-image: url('images/Lexus-TX.avif');">
+                    <img src="images/700h.avif" alt="">
+                </div>
+            </div>
+            <div class="col-xl-12 pb-3 ">
+                <div class="box-700h-button">
+                    <button class="btn-700h">LEARN MORE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+        <section class="LIMITED-container">
+        <div class="row" id="Up_coming_Vehicle">
+            <div class="col-xl-12">
+                <div class="header-title">
+                    <h4>FUTURE AND LIMITED EDITION VEHICLES</h4>
+                </div>
+            </div>
+            <div class="col-xl-12 container-box-feature">
+                <div class="boxitem">
+                    <h4> 2025 Black line specail Edition </h4>
+                    <button class="btn-lern-more">Lern morn</button>
+                    <img src="images/Lexus1.avif" alt="">
+                   
+                </div>
+                <div class="boxitem">
+                    <div class="top">
+                        <h4> 2025 Black line specail Edition </h4>
+                        <button class="btn-lern-more">Lern morn</button>
+                        <img src="images/Lexus2.avif" alt="">
+                    </div>
+                    <div class="bottom">
+                        <!-- <h4> 2025 Black line specail Edition </h4>
+                        <button class="btn-lern-more">Lern morn</button> -->
+                        <img src="images/Lexus3.avif" alt="">
+                    </div>
+                </div>
+                <div class="boxitem">
+                    <h4> 2025 Black line specail Edition </h4>
+                    <button class="btn-lern-more">Lern morn</button>
+                    <img src="images/Lexus4.avif" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="LIMITED-container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="header-title">
+                    <h4>DISCOVER LEXUS</h4>
+                </div>
+            </div>
+            <div class="col-xl-12 container-box-feature">
+                <div class="boxitem">
+                    <h4> 2025 Black line specail Edition </h4>
+                    <button class="btn-lern-more">Lern morn</button>
+                    <img src="images/Lexus5.avif" alt="">
+                   
+                </div>
+                <div class="boxitem">
+                    <div class="top">
+                        <h4> 2025 Black line specail Edition </h4>
+                        <button class="btn-lern-more">Lern morn</button>
+                        <img src="images/Lexus6.avif" alt="">
+                    </div>
+                    <div class="bottom">
+                        <!-- <h4> 2025 Black line specail Edition </h4>
+                        <button class="btn-lern-more">Lern morn</button> -->
+                        <img src="images/Lexus3.avif" alt="">
+                    </div>
+                </div>
+                <div class="boxitem">
+                    <h4> 2025 Black line specail Edition </h4>
+                    <button class="btn-lern-more">Lern morn</button>
+                    <img src="images/Lexus7.avif" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <br>
+
+    
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <h2 class="section-title scroll-reveal">Car's Gallery with it's performance</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item scroll-reveal" style="background-image: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=400&h=300&fit=crop');">
+                <div class="gallery-content">
+                    <h3>Luxury Interior</h3>
+                    <p>Crafted with precision</p>
+                </div>
+            </div>
+            <div class="gallery-item scroll-reveal" style="background-image: url('./images/Lexus4.avif');">
+                <div class="gallery-content">
+                    <h3>Advanced Technology</h3>
+                    <p>Innovation at your fingertips</p>
+                </div>
+            </div>
+            <div class="gallery-item scroll-reveal" style="background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop');">
+                <div class="gallery-content">
+                    <h3>Performance</h3>
+                    <p>Engineered for excellence</p>
+                </div>
+            </div>
+            <div class="gallery-item scroll-reveal" style="background-image: url('./images/Lexus3.avif');">
+                <div class="gallery-content">
+                    <h3>Design</h3>
+                    <p>Beauty in every detail</p>
+                </div>
+            </div>
+            <div class="gallery-item scroll-reveal" style="background-image: url('./images/Lexus7.avif');">
+                <div class="gallery-content">
+                    <h3>Design</h3>
+                    <p>Beauty in every detail</p>
+                </div>
+            </div>
+            <div class="gallery-item scroll-reveal" style="background-image: url('./images/Lexus6.avif');">
+                <div class="gallery-content">
+                    <h3>Design</h3>
+                    <p>Beauty in every detail</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="VEHICLES-container">
+        <div class="Header-title">
+            <h3>Customer Feedback</h3>
+        </div>
+        <div class="VEHICLES">
+            <div class="box-vihecle">
+                <div class="picture">
+                    <img src="https://tmna.aemassets.toyota.com/is/image/toyota/lexus/images/homepage/content-tile/promo/2024/Lexus-motorsports-homepage-tile-550x337-CY15-0049.jpg?wid=550&hei=337" alt="">
+                </div>
+                <div class="description">
+                   <h3>CURRENT OFFERS</h3>
+                   <h3>FIND LEASE, FINANCE AND CASH OFFERS IN YOUR AREA</h3>
+                   <button>Lern more</button>
+                </div>
+            </div>
+            <div class="box-vihecle">
+                <div class="picture">
+                    <img src="https://tmna.aemassets.toyota.com/is/image/toyota/lexus/images/homepage/content-tile/promo/2024/Homepage-Tile-2-Military-Rebate-550x337-LEX-STK-CY24-0014.jpg?wid=550&hei=337" alt="">
+                </div>
+                <div class="description">
+                   <h3>THE 2025 RZ</h3>
+                   <h3>ALL-ELECTRIC. ALL LEXUS.</h3>
+                   <button>Lern more</button>
+                </div>
+            </div>
+            <div class="box-vihecle">
+                <div class="picture">
+                    <img src="https://tmna.aemassets.toyota.com/is/image/toyota/lexus/images/homepage/content-tile/promo/2024/Homepage-Tile-3-College-Rebate-550x337-LEX-STK-CY24-0013.jpg?wid=550&hei=337" alt="">
+                </div>
+                <div class="description">
+                   <h3>THE 2025 NX</h3>
+                   <h3>WHERE TECHNOLOGY IS SECOND NATURE</h3>
+                   <button>Lern more</button>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+        <hr>
+    </section>
+    <br><br>
+    
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Vehicles</h3>
+                <ul>
+                    <li><a href="#">Sedans</a></li>
+                    <li><a href="#">SUVs</a></li>
+                    <li><a href="#">Hybrids</a></li>
+                    <li><a href="#">Electric</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Maintenance</a></li>
+                    <li><a href="#">Parts</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Warranty</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Investor Relations</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <ul>
+                    <li><a href="#">Find a Dealer</a></li>
+                    <li><a href="#">Customer Service</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Feedback</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Lexus. All rights reserved. | Privacy Policy | Terms of Service</p>
+        </div>
+    </footer>
+    
+</body>
+<script src="./script.js"></script>
+</html>
